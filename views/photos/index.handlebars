@@ -1,0 +1,42 @@
+
+<!-- <h1>Photos Index</h1> -->
+
+
+<a href="/photos/upload">Add New Photo</a>
+<!-- <a href="/photos/todo">Things to finish</a> -->
+<br>
+<hr>
+<div class="pics-ctr">
+
+  {{#each photos}}
+
+  <div class="photo-ctr">
+    <div class="photo-inr">
+      <a href="/photos/{{this.id}}">
+        <div class="photo-section">
+          <img src="/images/{{this.filename}}" alt="">
+        </div>
+      </a>
+      <div class="photo-title">
+        {{this.name}}
+      </div>
+      <div class="likes">
+        <img class="like-btn" src="images/like.jpg" alt="">4
+      </div>
+    </div>
+  </div>
+
+
+  {{/each}}
+
+  <div class="clear-fix">
+
+  </div>
+</div>
+<hr>
+
+<!-- <img src="/images/19194ecd12ad3551b1c2bb343a5c0fbb" alt="">
+<img src="/images/6caf32165c2b86f28fff8518c5b2d84f.jpg" alt="">
+
+
+<img src="images/image-1496079161600.jpg" alt=""> -->

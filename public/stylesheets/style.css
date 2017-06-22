@@ -1,0 +1,121 @@
+body{
+  background: #e5aa52;
+}
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+.photo-ctr{
+  border: solid 1px #ede6e6;
+  width: 300px;
+  height: 300px;
+  margin-top: 5px;
+  float: left;
+  margin: 10px;
+  border-radius: 4px;
+  background: #f9f9f4;
+  font-family: Courier New, monospace;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+.photo-ctr:hover{
+  /*transform: rotate(1deg);*/
+  /*transform: scale(1.3);*/
+  /*border: red 1px solid;*/
+  z-index: 20;
+}
+
+.photo-section{
+  width: 275px;
+  vertical-align: top;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-height: 220px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.photo-title{
+  padding: 20px;
+  float: left;
+}
+
+.likes{
+  float: right;
+  padding: 20px;
+}
+
+.likes img{
+  width: 20px;
+  margin-bottom: 1px;
+  margin-right: 5px;
+  cursor:pointer;
+}
+
+.pics-ctr{
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+.l-photo-wrp{
+  width: 100%;
+}
+
+.large-photo{
+  padding: 5px 10px 10px 10px;
+  background: #f9f9f4;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.l-photo-inr{
+  background: #f9f9f4;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.photo-back-ctr{
+  border: 1px solid black;
+  padding: 20px;
+  /*margin: 10px;*/s
+  border-radius: 20%;
+}
+
+.photo-show-main{
+  min width: 100%;
+  min-height: 100vh;
+  background: black;
+
+}
+.clear-fix{
+  clear: both;
+  /*padding-top: 40px;*/
+}
+
+.main-photo-rtrn{
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 680px) {
+
+  .photo-ctr{
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+  }
+  .photo-section{
+    width: 85%;
+    /*margin: 0 auto;*/
+  }
+}
